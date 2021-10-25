@@ -25,10 +25,10 @@ except:
         EDIT_SLEEP_SECS = 10
 
         # Telegram Upload Limit (in bytes)
-        TG_UP_LIMIT = 1700000000
+        TG_UP_LIMIT = 2000000000
 
         # Should force evething uploaded into Document
-        FORCE_DOCUMENTS = False
+        FORCE_DOCUMENTS = True
 
         # Chracter to use as a completed progress
         COMPLETED_STR = "▰"
@@ -75,10 +75,10 @@ except:
         DEF_RCLONE_DRIVE = ""
 
         # Max size of a playlist that is allowed (Number of videos)
-        MAX_YTPLAYLIST_SIZE = 20
+        MAX_YTPLAYLIST_SIZE = 2000000000
 
         # Max size of the torrent allowed
-        MAX_TORRENT_SIZE = 10
+        MAX_TORRENT_SIZE = 2000000000
 
         # Custom Trackers for QBT..
         ADD_CUSTOM_TRACKERS = True
@@ -95,7 +95,7 @@ except:
         USETTINGS_IN_PRIVATE = False
 
         # Torrent max time to collect metadata in seconds
-        TOR_MAX_TOUT = 180
+        TOR_MAX_TOUT = 2000000000
 
         # This is to stop someone from abusing the system by imposing the limit
         # [<GBs of total torrent sapce>, <Number of youtube videos allowed to download>, <Number of youtube playlists allowed to download>]
@@ -106,7 +106,7 @@ except:
         # CHANGE THESE AT YOUR RISK
         LOCKED_USERS = False
         RSTUFF = False
-        FORCE_DOCS_USER = False
+        FORCE_DOCS_USER = True
         FAST_UPLOAD = True
         METAINFO_BOT = False
         EXPRESS_UPLOAD = True
